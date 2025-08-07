@@ -1,7 +1,10 @@
 {
   "name": "koishi-plugin-ysyunhei",
   "description": "通过OneBot实现对特定云端黑名单系统添加和查询人员的机器人插件。",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "contributors": [
+    "N. Sun <nsun200512@outlook.com>"
+  ],
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -9,14 +12,21 @@
     "dist"
   ],
   "license": "MIT",
-  "scripts": {},
+  "homepage": "https://yunhei.youshou.wiki",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NSun200512/koishi-plugin-ysyunhei.git"
+  },
   "keywords": [
-    "chatbot",
+    "onebot",
     "koishi",
     "plugin"
   ],
-  "devDependencies": {},
   "peerDependencies": {
-    "koishi": "^4.18.7"
+    "koishi": "^4.18.7",
+    "koishi-plugin-adapter-onebot": "^6.8.0"
+  },
+  "koishi": {
+    "preview": true
   }
 }
